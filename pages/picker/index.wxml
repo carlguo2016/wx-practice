@@ -1,0 +1,16 @@
+<import src="../../components/picker/picker.wxml"/>
+
+<import src="../../components/picker-city/picker-city.wxml"/>
+
+<template is="picker" data="{{ ...$wux.picker.default }}"/>
+<template is="picker" data="{{ ...$wux.picker.multi }}"/>
+
+<template is="picker-city" data="{{ ...$wux.pickerCity.city }}"/>
+
+<view class="container">
+    <view>
+        <button class="weui-btn" type="default" bindtap="onTapDefault">Default-Picker {{ default }}</button>
+        <button class="weui-btn" type="default" bindtap="onTapMulti">Multi-Picker {{ multi }}</button>
+        <button class="weui-btn" type="default" bindtap="onTapCity">City-Picker {{ city }}</button>
+    </view>
+</view>

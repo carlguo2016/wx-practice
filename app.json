@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dialog/index",
+    "pages/picker/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1E2A3C",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#EEF3F7",
+    "debug": true
+  }
+}

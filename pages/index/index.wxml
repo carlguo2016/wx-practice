@@ -1,0 +1,14 @@
+<view class="container">
+
+  <view class="img-box">
+    <image class="bg" src="images/bg.png"></image>
+    <image class="avatar" src="../../assets/images/default-avatar@2x.png"></image>
+  </view>
+
+  <view>
+    <navigator wx:for="{{ list }}" wx:key="name" url="{{ item.path }}">
+      <view class="wx-panel">{{ item.name }}</view>
+    </navigator>
+  </view>
+
+</view>
